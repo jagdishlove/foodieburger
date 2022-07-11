@@ -1,0 +1,53 @@
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: calc(5rem + 1px);
+
+}
+
+
+.images {
+    width: 28rem;
+    height: 25rem;
+}
+
+.itemContent {
+    text-align: center;
+}
+
+.incrementBtn {
+    background: var(--blue);
+    color: white;
+    border: none;
+    padding: .8rem 1rem .8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.incrementBtn:hover {
+    background: var(--blue-dark);
+}
+
+.decrementBtn {
+    background: var(--red);
+    color: white;
+    border: none;
+    padding: .8rem 1rem .8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.decrementBtn:hover {
+    background: var(--red-dark);
+}

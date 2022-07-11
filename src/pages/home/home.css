@@ -1,0 +1,28 @@
+.homeContainer {
+    text-align: center;
+    align-items: center;
+}
+
+.menuBtn {
+    letter-spacing: 1px;
+    padding: .7rem;
+    border: 1px solid #0a58ca;
+    outline: none;
+    background: var(--blue);
+    font-size: .8em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.menuBtn:hover {
+    background: var(--blue-dark);
+}
+
+.homeContainer p {
+    font-size: 1.8rem;
+    position: relative;
+    top: 1rem;
+    font-weight: 500;
+}
